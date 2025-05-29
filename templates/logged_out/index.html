@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Welcome! - Fileshare</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <style>
+            body {
+                background-color: #121212;
+                color: #eee;
+            }
+
+            .animate-delay-1 {
+                animation-delay: 0.3s;
+            }
+
+            .animate-delay-2 {
+                animation-delay: 0.6s;
+            }
+
+            .list-group-item:hover,
+            .list-group-item:focus {
+                background-color: #2c2f33 !important;
+                color: #00d1b2 !important;
+                transition: background-color 0.3s, color 0.3s;
+                outline: none;
+            }
+
+            .btn-primary {
+                background-color: #0d6efd;
+                border-color: #0d6efd;
+                transition: background-color 0.3s, border-color 0.3s;
+            }
+
+            .btn-primary:hover,
+            .btn-primary:focus {
+                background-color: #00d1b2;
+                border-color: #00d1b2;
+            }
+
+            thead.table-light {
+                background-color: #343a40;
+                color: #00d1b2;
+            }
+
+            main.container {
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+            }
+        </style>
+    </head>
+
+    <body class="text-white">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-secondary">
+            <div class="container">
+                <a class="navbar-brand fs-4 fw-semibold" href="/">Fileshare</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+                    aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navMenu">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="/">Index</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/register">Register</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main class="container py-5">
+
+            <!-- Hero Section -->
+            <section class="text-center mb-5">
+                <h1 class="display-5 fw-bold animate__animated animate__fadeInDown">Welcome to Fileshare</h1>
+                <p class="lead text-muted animate__animated animate__fadeInUp animate-delay-1">
+                    A private, curated space to share files and ideas — where trust matters.
+                </p>
+                <hr class="w-50 mx-auto text-secondary" />
+            </section>
+
+            <div class="row g-5">
+                <!-- Users Section -->
+                <section class="col-lg-5 animate__animated animate__fadeInRight animate-delay-2"
+                    aria-label="Registered users list">
+                    <h4 class="mb-4">Users</h4>
+                    <div class="list-group shadow-sm rounded">
+                        {% for user in users %}
+                        <a style="color: {{ user.color }};" href="/profile/{{ user.username }}"
+                            class="list-group-item list-group-item-action bg-dark border-secondary" tabindex="0"
+                            aria-label="View profile of {{ user.username }}">
+                            {{ user.username }}
+                        </a>
+                        {% endfor %}
+                    </div>
+                </section>
+            </div>
+
+            <!-- About Section -->
+            <section class="mt-5 pt-4 border-top border-secondary animate__animated animate__fadeInUp animate-delay-2">
+                <div class="card bg-dark border-secondary shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title text-info">🔒 About Fileshare</h5>
+                        <p class="card-text">
+                            Fileshare is an invite-only platform for secure file exchange and community posting. Admin
+                            approval ensures only trusted members gain access.
+                        </p>
+                        <ul>
+                            <li>📁 Upload and download files privately</li>
+                            <li>👥 View other users and explore their profiles</li>
+                            <li>📣 Share public posts (coming soon)</li>
+                            <li>✉️ Message users directly (coming soon)</li>
+                        </ul>
+                        <p class="text-muted mb-0">
+                            Made with Flask + Bootstrap. Simple. Secure. Intentional.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+
+</html>
