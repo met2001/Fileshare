@@ -16,12 +16,6 @@
 
 ---
 
-## 📸 Screenshots
-
-> _Add screenshots of your app here, like the homepage, file upload section, or post page._
-
----
-
 ## 🛠️ Tech Stack
 
 - **Backend:** Python, Flask, SQLAlchemy
