@@ -236,9 +236,17 @@
                     <p class="text-muted">No files uploaded yet.</p>
                     {% endif %}
                 </section>
-
                 <section class="col-lg-5 animate__animated animate__fadeInRight animate-delay-2">
-                    <h4 class="mb-4">Users</h4>
+                    <h4 class="mb-4">
+                        Users
+                        <span id="user-count" class="badge bg-success align-middle ms-2" aria-live="polite">
+                            Current Visitors: 0
+                        </span>
+                        <span id="user-count" class="badge bg-success align-middle ms-2" aria-live="polite">
+                            Total Users: {{user_count}}
+                        </span>
+                    </h4>
+
                     <div class="list-group shadow-sm rounded">
                         {% for user in users %}
                         <a style="color: {{ user.color | e }};" href="/profile/{{ user.username | e }}"
@@ -252,6 +260,17 @@
         </main>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+        <script>
+            const socket = io();
+
+            socket.on('update_count', (data) => {
+                document.getElementById('user-count').innerText = `Current Visitors: ${data.count}`;
+            });
+        </script>
+
+
+
     </body>
 
 </html>

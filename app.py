@@ -1,5 +1,7 @@
 from flask import Flask, render_template, url_for, request, redirect, session, send_file, jsonify
 from flask_sqlalchemy import SQLAlchemy
+from flask_socketio import SocketIO
+import redis
 from flask_admin import Admin
 from flask_admin.contrib.sqla import ModelView
 from models import *
@@ -26,7 +28,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SESSION_COOKIE_SECURE'] = True
 app.secret_key = secrets.token_hex(32)
 app.permanent_session_lifetime = timedelta(hours=720)
-
+socketio = SocketIO(app, cors_allowed_origins="*")
 
 db.init_app(app)
 
@@ -44,15 +46,17 @@ admin.add_view(ModelView(File, db.session))
 @app.route("/")
 def index_page():
     users = User.query.all()
+    user_count = len(users)
+    page = request.args.get("page", 1, type=int)
+    per_page = 5
+    posts = Post.query.order_by(Post.id.desc()).paginate(page=page, per_page=per_page)
+    files = File.query.all()
+    replies = Reply.query.all()
     if 'user_id' in session:
-        page = request.args.get("page", 1, type=int)
-        per_page = 5
-        posts = Post.query.order_by(Post.id.desc()).paginate(page=page, per_page=per_page)
-        files = File.query.all()
-        replies = Reply.query.all()
-        return render_template('logged_in/index.html', username=session['username'], users=users, files=files, posts=posts, replies=replies)
+
+        return render_template('logged_in/index.html', username=session['username'], users=users, files=files, posts=posts, replies=replies, user_count=user_count)
     else:
-        return render_template("logged_out/index.html", users=users)
+        return render_template("logged_out/index.html", users=users, files=files, posts=posts, replies=replies, user_count=user_count)
 
 
 # REGISTER ENDPOINT
@@ -60,9 +64,11 @@ def index_page():
 def register_user():
 
     if request.method == 'POST':
-        username = request.form['username']
-        email = request.form['email']
-        password = request.form['password']
+        username = request.form['username'].strip()
+        email = request.form['email'].strip()
+        password = request.form['password'].strip()
+        if (" " in username) or (" " in password) or (" " in email):
+            return render_template('logged_out/register.html', error="No spaces allowed.")
         hashed_password = generate_password_hash(password)
 
         if not User.query.filter((User.username == username) | (User.email == email)).first():
@@ -126,7 +132,7 @@ def upload():
         if 'user_id' in session:
             return render_template('logged_in/upload.html', username=session['username'])
         else:
-            return redirect(url_for('index_page'))
+            return redirect(url_for('login_user'))
 
     if request.method == 'POST' and ('user_id' in session):
         if 'file' not in request.files:
@@ -162,7 +168,7 @@ def profile():
         user = User.query.filter_by(id=user_id).first()
         return render_template('logged_in/profile.html', username=session['username'], files=files, user_id=user_id, user=user,posts=posts,replies=replies)
     else:
-        return render_template('404.html')
+        return redirect(url_for('login_user'))
 
 
 @app.route('/profile/<username>', methods=['GET'])
@@ -190,7 +196,7 @@ def download(id):
         filename = file_record.filename
         return send_file(filepath, as_attachment=True, download_name=filename)
     else:
-        return render_template('404.html')
+        return redirect(url_for('login_user'))
 
 
 @app.route('/color/<int:id>', methods=['POST'])
@@ -206,9 +212,9 @@ def change_color(id):
             user.text_color = text_color
             db.session.commit()
             return redirect(url_for('profile'))
-        return 'error with user session', 400
+        return render_template('404.html')
     else:
-        return "error no login detected", 400
+        return render_template('404.html')
 
 
 @app.route('/post', methods=['POST'])
@@ -222,7 +228,7 @@ def make_post():
         db.session.commit()
         return redirect(url_for('index_page'))
     else:
-        return render_template('404.html')
+        return redirect(url_for('login_user'))
 
 
 @app.route('/reply/<int:id>',methods=['POST'])
@@ -236,7 +242,25 @@ def reply(id):
         db.session.commit()
         return redirect(url_for('index_page'))
     else:
-        return render_template('404.html')
+        return redirect(url_for('login_user'))
+
+
+# ACTIVE USER COUNT
+active_users = 0
+
+
+@socketio.on('connect')
+def handle_connect():
+    global active_users
+    active_users += 1
+    socketio.emit('update_count', {'count': active_users})
+
+
+@socketio.on('disconnect')
+def handle_disconnect():
+    global active_users
+    active_users -= 1
+    socketio.emit('update_count', {'count': active_users})
 
 
 if __name__ == "__main__":

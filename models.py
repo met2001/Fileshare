@@ -13,6 +13,7 @@ class User(db.Model):
     text_color = db.Column(db.String(10), nullable=False, default='#FFFFFF')
     card_color = db.Column(db.String(10), nullable=False, default='#1E1E1E')
     admin = db.Column(db.Boolean(), nullable=False, default=False)
+    sparkle = db.Column(db.Text, nullable=True, default='./static/yellow.gif')
     posts = db.relationship('Post', backref='author', lazy=True)
     files = db.relationship('File', backref='user', lazy=True)
 
