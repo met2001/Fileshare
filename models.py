@@ -18,7 +18,6 @@ class User(db.Model):
     files = db.relationship('File', backref='user', lazy=True)
 
 
-
 class Post(db.Model):  # changed from Posts → Post
     __tablename__ = "posts"
     id = db.Column(db.Integer, primary_key=True)
