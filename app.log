@@ -1,0 +1,219 @@
+2025-06-06 10:58:33,160  * Debugger is active!
+2025-06-06 10:58:33,161  * Debugger PIN: 346-412-446
+2025-06-06 10:58:33,918 127.0.0.1 - - [06/Jun/2025 10:58:33] "GET /socket.io/?EIO=4&transport=polling&t=PT5m3Ky HTTP/1.1" 200 -
+2025-06-06 10:58:33,922 127.0.0.1 - - [06/Jun/2025 10:58:33] "POST /socket.io/?EIO=4&transport=polling&t=PT5m3L0&sid=jBwGUrA3I8WcN1bFAAAA HTTP/1.1" 200 -
+2025-06-06 10:58:33,923 127.0.0.1 - - [06/Jun/2025 10:58:33] "GET /socket.io/?EIO=4&transport=polling&t=PT5m3L0.0&sid=jBwGUrA3I8WcN1bFAAAA HTTP/1.1" 200 -
+2025-06-06 10:58:33,926 127.0.0.1 - - [06/Jun/2025 10:58:33] "GET /socket.io/?EIO=4&transport=polling&t=PT5m3L5&sid=jBwGUrA3I8WcN1bFAAAA HTTP/1.1" 200 -
+2025-06-06 10:59:37,445  * Detected change in '/home/miles/Code Projects/FileTransferSite/app.py', reloading
+2025-06-06 10:59:37,830  * Debugger is active!
+2025-06-06 10:59:37,831  * Debugger PIN: 346-412-446
+2025-06-06 10:59:38,918 127.0.0.1 - - [06/Jun/2025 10:59:38] "GET /socket.io/?EIO=4&transport=polling&t=PT5mJCZ HTTP/1.1" 200 -
+2025-06-06 10:59:38,926 127.0.0.1 - - [06/Jun/2025 10:59:38] "POST /socket.io/?EIO=4&transport=polling&t=PT5mJCf&sid=_SGrVGNDNgwhZhUTAAAA HTTP/1.1" 200 -
+2025-06-06 10:59:38,929 127.0.0.1 - - [06/Jun/2025 10:59:38] "GET /socket.io/?EIO=4&transport=polling&t=PT5mJCf.0&sid=_SGrVGNDNgwhZhUTAAAA HTTP/1.1" 200 -
+2025-06-06 10:59:38,932 127.0.0.1 - - [06/Jun/2025 10:59:38] "GET /socket.io/?EIO=4&transport=polling&t=PT5mJCp&sid=_SGrVGNDNgwhZhUTAAAA HTTP/1.1" 200 -
+2025-06-06 11:02:55,707  * Detected change in '/home/miles/Code Projects/FileTransferSite/app.py', reloading
+2025-06-06 11:02:56,103  * Debugger is active!
+2025-06-06 11:02:56,104  * Debugger PIN: 346-412-446
+2025-06-06 11:02:57,917 127.0.0.1 - - [06/Jun/2025 11:02:57] "GET /socket.io/?EIO=4&transport=polling&t=PT5n3nx HTTP/1.1" 200 -
+2025-06-06 11:02:57,921 127.0.0.1 - - [06/Jun/2025 11:02:57] "POST /socket.io/?EIO=4&transport=polling&t=PT5n3n_&sid=MBOL6V7DPCcaM3ilAAAA HTTP/1.1" 200 -
+2025-06-06 11:02:57,922 127.0.0.1 - - [06/Jun/2025 11:02:57] "GET /socket.io/?EIO=4&transport=polling&t=PT5n3n_.0&sid=MBOL6V7DPCcaM3ilAAAA HTTP/1.1" 200 -
+2025-06-06 11:03:08,077 127.0.0.1 - - [06/Jun/2025 11:03:08] "GET /socket.io/?EIO=4&transport=websocket&sid=MBOL6V7DPCcaM3ilAAAA HTTP/1.1" 200 -
+2025-06-06 11:03:08,114 127.0.0.1 - - [06/Jun/2025 11:03:08] "GET / HTTP/1.1" 200 -
+2025-06-06 11:03:08,186 127.0.0.1 - - [06/Jun/2025 11:03:08] "GET /socket.io/?EIO=4&transport=polling&t=PT5n6IM HTTP/1.1" 200 -
+2025-06-06 11:03:08,192 127.0.0.1 - - [06/Jun/2025 11:03:08] "POST /socket.io/?EIO=4&transport=polling&t=PT5n6IT&sid=MaoFSBafluw4dXPAAAAC HTTP/1.1" 200 -
+2025-06-06 11:03:08,192 127.0.0.1 - - [06/Jun/2025 11:03:08] "GET /socket.io/?EIO=4&transport=polling&t=PT5n6IT.0&sid=MaoFSBafluw4dXPAAAAC HTTP/1.1" 200 -
+2025-06-06 11:03:32,274 127.0.0.1 - - [06/Jun/2025 11:03:32] "GET /socket.io/?EIO=4&transport=websocket&sid=MaoFSBafluw4dXPAAAAC HTTP/1.1" 200 -
+2025-06-06 11:03:32,283 127.0.0.1 - - [06/Jun/2025 11:03:32] "[33mGET /admin/create/2 HTTP/1.1[0m" 404 -
+2025-06-06 11:03:46,802 127.0.0.1 - - [06/Jun/2025 11:03:46] "GET /login HTTP/1.1" 200 -
+2025-06-06 11:03:49,930 127.0.0.1 - - [06/Jun/2025 11:03:49] "POST /login HTTP/1.1" 200 -
+2025-06-06 11:03:52,736 127.0.0.1 - - [06/Jun/2025 11:03:52] "GET / HTTP/1.1" 200 -
+2025-06-06 11:03:52,780 127.0.0.1 - - [06/Jun/2025 11:03:52] "GET /socket.io/?EIO=4&transport=polling&t=PT5nHBA HTTP/1.1" 200 -
+2025-06-06 11:03:52,792 127.0.0.1 - - [06/Jun/2025 11:03:52] "POST /socket.io/?EIO=4&transport=polling&t=PT5nHBF&sid=sdjkhf0u6hkgdtIsAAAE HTTP/1.1" 200 -
+2025-06-06 11:03:52,793 127.0.0.1 - - [06/Jun/2025 11:03:52] "GET /socket.io/?EIO=4&transport=polling&t=PT5nHBF.0&sid=sdjkhf0u6hkgdtIsAAAE HTTP/1.1" 200 -
+2025-06-06 11:03:59,398 127.0.0.1 - - [06/Jun/2025 11:03:59] "GET /socket.io/?EIO=4&transport=websocket&sid=sdjkhf0u6hkgdtIsAAAE HTTP/1.1" 200 -
+2025-06-06 11:03:59,410 127.0.0.1 - - [06/Jun/2025 11:03:59] "[33mGET /admin/create/2 HTTP/1.1[0m" 404 -
+2025-06-06 11:04:24,600 127.0.0.1 - - [06/Jun/2025 11:04:24] "[33mGET /admin/create/1 HTTP/1.1[0m" 404 -
+2025-06-06 11:04:37,167 127.0.0.1 - - [06/Jun/2025 11:04:37] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-06 11:04:37,171 127.0.0.1 - - [06/Jun/2025 11:04:37] "GET / HTTP/1.1" 200 -
+2025-06-06 11:04:37,190 127.0.0.1 - - [06/Jun/2025 11:04:37] "GET /socket.io/?EIO=4&transport=polling&t=PT5nS12 HTTP/1.1" 200 -
+2025-06-06 11:04:37,213 127.0.0.1 - - [06/Jun/2025 11:04:37] "POST /socket.io/?EIO=4&transport=polling&t=PT5nS1G&sid=YwApn4hQMiBBXN8UAAAG HTTP/1.1" 200 -
+2025-06-06 11:04:37,213 127.0.0.1 - - [06/Jun/2025 11:04:37] "GET /socket.io/?EIO=4&transport=polling&t=PT5nS1H&sid=YwApn4hQMiBBXN8UAAAG HTTP/1.1" 200 -
+2025-06-06 11:04:37,987 127.0.0.1 - - [06/Jun/2025 11:04:37] "GET /socket.io/?EIO=4&transport=websocket&sid=YwApn4hQMiBBXN8UAAAG HTTP/1.1" 200 -
+2025-06-06 11:04:37,991 127.0.0.1 - - [06/Jun/2025 11:04:37] "GET /login HTTP/1.1" 200 -
+2025-06-06 11:04:53,537 127.0.0.1 - - [06/Jun/2025 11:04:53] "POST /login HTTP/1.1" 200 -
+2025-06-06 11:05:05,749 127.0.0.1 - - [06/Jun/2025 11:05:05] "POST /login HTTP/1.1" 200 -
+2025-06-06 11:05:08,408 127.0.0.1 - - [06/Jun/2025 11:05:08] "GET / HTTP/1.1" 200 -
+2025-06-06 11:05:08,460 127.0.0.1 - - [06/Jun/2025 11:05:08] "GET /socket.io/?EIO=4&transport=polling&t=PT5nZfh HTTP/1.1" 200 -
+2025-06-06 11:05:08,470 127.0.0.1 - - [06/Jun/2025 11:05:08] "POST /socket.io/?EIO=4&transport=polling&t=PT5nZfo&sid=t4p28hEjVrPBa8MrAAAI HTTP/1.1" 200 -
+2025-06-06 11:05:08,471 127.0.0.1 - - [06/Jun/2025 11:05:08] "GET /socket.io/?EIO=4&transport=polling&t=PT5nZfo.0&sid=t4p28hEjVrPBa8MrAAAI HTTP/1.1" 200 -
+2025-06-06 11:05:19,821 127.0.0.1 - - [06/Jun/2025 11:05:19] "GET /socket.io/?EIO=4&transport=websocket&sid=t4p28hEjVrPBa8MrAAAI HTTP/1.1" 200 -
+2025-06-06 11:05:19,840 127.0.0.1 - - [06/Jun/2025 11:05:19] "[33mGET /admin/create/2 HTTP/1.1[0m" 404 -
+2025-06-06 11:05:26,063 127.0.0.1 - - [06/Jun/2025 11:05:26] "[33mGET /admin/create/1 HTTP/1.1[0m" 404 -
+2025-06-06 11:06:22,051  * Detected change in '/home/miles/Code Projects/FileTransferSite/app.py', reloading
+2025-06-06 11:06:22,451  * Debugger is active!
+2025-06-06 11:06:22,451  * Debugger PIN: 346-412-446
+2025-06-06 11:07:25,111 127.0.0.1 - - [06/Jun/2025 11:07:25] "GET /socket.io/?EIO=4&transport=polling&t=PT5o50r HTTP/1.1" 200 -
+2025-06-06 11:07:25,121 127.0.0.1 - - [06/Jun/2025 11:07:25] "POST /socket.io/?EIO=4&transport=polling&t=PT5o50-&sid=yMNhWvDOHC7pzL_gAAAA HTTP/1.1" 200 -
+2025-06-06 11:07:25,124 127.0.0.1 - - [06/Jun/2025 11:07:25] "GET /socket.io/?EIO=4&transport=polling&t=PT5o50-.0&sid=yMNhWvDOHC7pzL_gAAAA HTTP/1.1" 200 -
+2025-06-06 11:07:25,313 127.0.0.1 - - [06/Jun/2025 11:07:25] "GET /socket.io/?EIO=4&transport=websocket&sid=yMNhWvDOHC7pzL_gAAAA HTTP/1.1" 200 -
+2025-06-06 11:07:25,340 127.0.0.1 - - [06/Jun/2025 11:07:25] "GET / HTTP/1.1" 200 -
+2025-06-06 11:07:25,359 127.0.0.1 - - [06/Jun/2025 11:07:25] "GET /socket.io/?EIO=4&transport=polling&t=PT5o54j HTTP/1.1" 200 -
+2025-06-06 11:07:25,380 127.0.0.1 - - [06/Jun/2025 11:07:25] "POST /socket.io/?EIO=4&transport=polling&t=PT5o54y&sid=uqB0BX2JIhcvm77EAAAC HTTP/1.1" 200 -
+2025-06-06 11:07:25,381 127.0.0.1 - - [06/Jun/2025 11:07:25] "GET /socket.io/?EIO=4&transport=polling&t=PT5o54z&sid=uqB0BX2JIhcvm77EAAAC HTTP/1.1" 200 -
+2025-06-06 11:07:27,232 127.0.0.1 - - [06/Jun/2025 11:07:27] "GET /socket.io/?EIO=4&transport=websocket&sid=uqB0BX2JIhcvm77EAAAC HTTP/1.1" 200 -
+2025-06-06 11:07:27,238 127.0.0.1 - - [06/Jun/2025 11:07:27] "GET /login HTTP/1.1" 200 -
+2025-06-06 11:07:34,779 127.0.0.1 - - [06/Jun/2025 11:07:34] "POST /login HTTP/1.1" 200 -
+2025-06-06 11:07:37,458 127.0.0.1 - - [06/Jun/2025 11:07:37] "GET / HTTP/1.1" 200 -
+2025-06-06 11:07:37,524 127.0.0.1 - - [06/Jun/2025 11:07:37] "GET /socket.io/?EIO=4&transport=polling&t=PT5o82m HTTP/1.1" 200 -
+2025-06-06 11:07:37,536 127.0.0.1 - - [06/Jun/2025 11:07:37] "POST /socket.io/?EIO=4&transport=polling&t=PT5o82y&sid=6Jk2uyGj5HkRuKiFAAAE HTTP/1.1" 200 -
+2025-06-06 11:07:37,537 127.0.0.1 - - [06/Jun/2025 11:07:37] "GET /socket.io/?EIO=4&transport=polling&t=PT5o82z&sid=6Jk2uyGj5HkRuKiFAAAE HTTP/1.1" 200 -
+2025-06-06 11:07:43,561 127.0.0.1 - - [06/Jun/2025 11:07:43] "GET /socket.io/?EIO=4&transport=websocket&sid=6Jk2uyGj5HkRuKiFAAAE HTTP/1.1" 200 -
+2025-06-06 11:07:43,576 127.0.0.1 - - [06/Jun/2025 11:07:43] "[33mGET /admin/create/2 HTTP/1.1[0m" 404 -
+2025-06-06 11:08:05,817 127.0.0.1 - - [06/Jun/2025 11:08:05] "GET / HTTP/1.1" 200 -
+2025-06-06 11:08:05,835 127.0.0.1 - - [06/Jun/2025 11:08:05] "GET /socket.io/?EIO=4&transport=polling&t=PT5oEz8 HTTP/1.1" 200 -
+2025-06-06 11:08:05,858 127.0.0.1 - - [06/Jun/2025 11:08:05] "POST /socket.io/?EIO=4&transport=polling&t=PT5oEzQ&sid=ZmxbD-OHNdmQ_PdDAAAG HTTP/1.1" 200 -
+2025-06-06 11:08:05,858 127.0.0.1 - - [06/Jun/2025 11:08:05] "GET /socket.io/?EIO=4&transport=polling&t=PT5oEzR&sid=ZmxbD-OHNdmQ_PdDAAAG HTTP/1.1" 200 -
+2025-06-06 11:08:14,494 127.0.0.1 - - [06/Jun/2025 11:08:14] "GET /socket.io/?EIO=4&transport=websocket&sid=ZmxbD-OHNdmQ_PdDAAAG HTTP/1.1" 200 -
+2025-06-06 11:08:14,504 127.0.0.1 - - [06/Jun/2025 11:08:14] "GET /upload HTTP/1.1" 200 -
+2025-06-06 11:08:17,023 127.0.0.1 - - [06/Jun/2025 11:08:17] "GET / HTTP/1.1" 200 -
+2025-06-06 11:08:17,041 127.0.0.1 - - [06/Jun/2025 11:08:17] "GET /socket.io/?EIO=4&transport=polling&t=PT5oHiF HTTP/1.1" 200 -
+2025-06-06 11:08:17,053 127.0.0.1 - - [06/Jun/2025 11:08:17] "POST /socket.io/?EIO=4&transport=polling&t=PT5oHiQ&sid=9nE1SJoWRR5miF2tAAAI HTTP/1.1" 200 -
+2025-06-06 11:08:17,054 127.0.0.1 - - [06/Jun/2025 11:08:17] "GET /socket.io/?EIO=4&transport=polling&t=PT5oHiQ.0&sid=9nE1SJoWRR5miF2tAAAI HTTP/1.1" 200 -
+2025-06-06 11:08:17,066 127.0.0.1 - - [06/Jun/2025 11:08:17] "GET /socket.io/?EIO=4&transport=polling&t=PT5oHia&sid=9nE1SJoWRR5miF2tAAAI HTTP/1.1" 200 -
+2025-06-06 11:08:52,302 127.0.0.1 - - [06/Jun/2025 11:08:52] "GET /socket.io/?EIO=4&transport=websocket&sid=9nE1SJoWRR5miF2tAAAI HTTP/1.1" 200 -
+2025-06-06 11:08:52,391 127.0.0.1 - - [06/Jun/2025 11:08:52] "GET /admin/ HTTP/1.1" 200 -
+2025-06-06 11:08:52,466 127.0.0.1 - - [06/Jun/2025 11:08:52] "GET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1" 200 -
+2025-06-06 11:08:52,466 127.0.0.1 - - [06/Jun/2025 11:08:52] "GET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1" 200 -
+2025-06-06 11:08:52,466 127.0.0.1 - - [06/Jun/2025 11:08:52] "GET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1" 200 -
+2025-06-06 11:08:52,466 127.0.0.1 - - [06/Jun/2025 11:08:52] "GET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1" 200 -
+2025-06-06 11:08:52,466 127.0.0.1 - - [06/Jun/2025 11:08:52] "GET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1" 200 -
+2025-06-06 11:08:52,466 127.0.0.1 - - [06/Jun/2025 11:08:52] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 200 -
+2025-06-06 11:08:52,501 127.0.0.1 - - [06/Jun/2025 11:08:52] "GET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1" 200 -
+2025-06-06 11:09:50,367  * Detected change in '/home/miles/Code Projects/FileTransferSite/app.py', reloading
+2025-06-06 11:09:50,770  * Debugger is active!
+2025-06-06 11:09:50,770  * Debugger PIN: 346-412-446
+2025-06-06 11:09:52,478 127.0.0.1 - - [06/Jun/2025 11:09:52] "GET /socket.io/?EIO=4&transport=polling&t=PT5oe_R HTTP/1.1" 200 -
+2025-06-06 11:09:52,482 127.0.0.1 - - [06/Jun/2025 11:09:52] "POST /socket.io/?EIO=4&transport=polling&t=PT5oe_W&sid=wpZ3HKASxtof3UYJAAAA HTTP/1.1" 200 -
+2025-06-06 11:09:52,483 127.0.0.1 - - [06/Jun/2025 11:09:52] "GET /socket.io/?EIO=4&transport=polling&t=PT5oe_W.0&sid=wpZ3HKASxtof3UYJAAAA HTTP/1.1" 200 -
+2025-06-06 11:10:04,104 127.0.0.1 - - [06/Jun/2025 11:10:04] "GET /socket.io/?EIO=4&transport=websocket&sid=wpZ3HKASxtof3UYJAAAA HTTP/1.1" 200 -
+2025-06-06 11:10:04,114 127.0.0.1 - - [06/Jun/2025 11:10:04] "[33mGET /admin/create/2 HTTP/1.1[0m" 404 -
+2025-06-06 11:10:22,880 127.0.0.1 - - [06/Jun/2025 11:10:22] "GET / HTTP/1.1" 200 -
+2025-06-06 11:10:22,902 127.0.0.1 - - [06/Jun/2025 11:10:22] "GET /socket.io/?EIO=4&transport=polling&t=PT5omQo HTTP/1.1" 200 -
+2025-06-06 11:10:22,921 127.0.0.1 - - [06/Jun/2025 11:10:22] "POST /socket.io/?EIO=4&transport=polling&t=PT5omR1&sid=tHeGm1lefn7fwETEAAAC HTTP/1.1" 200 -
+2025-06-06 11:10:22,922 127.0.0.1 - - [06/Jun/2025 11:10:22] "GET /socket.io/?EIO=4&transport=polling&t=PT5omR2&sid=tHeGm1lefn7fwETEAAAC HTTP/1.1" 200 -
+2025-06-06 11:10:24,448 127.0.0.1 - - [06/Jun/2025 11:10:24] "GET /socket.io/?EIO=4&transport=websocket&sid=tHeGm1lefn7fwETEAAAC HTTP/1.1" 200 -
+2025-06-06 11:10:24,462 127.0.0.1 - - [06/Jun/2025 11:10:24] "GET /login HTTP/1.1" 200 -
+2025-06-06 11:10:33,264 127.0.0.1 - - [06/Jun/2025 11:10:33] "POST /login HTTP/1.1" 200 -
+2025-06-06 11:10:34,689 127.0.0.1 - - [06/Jun/2025 11:10:34] "GET / HTTP/1.1" 200 -
+2025-06-06 11:10:34,810 127.0.0.1 - - [06/Jun/2025 11:10:34] "GET /socket.io/?EIO=4&transport=polling&t=PT5opKv HTTP/1.1" 200 -
+2025-06-06 11:10:34,822 127.0.0.1 - - [06/Jun/2025 11:10:34] "POST /socket.io/?EIO=4&transport=polling&t=PT5opK_&sid=eW0-4b82o0ktmaTtAAAE HTTP/1.1" 200 -
+2025-06-06 11:10:34,824 127.0.0.1 - - [06/Jun/2025 11:10:34] "GET /socket.io/?EIO=4&transport=polling&t=PT5opL0&sid=eW0-4b82o0ktmaTtAAAE HTTP/1.1" 200 -
+2025-06-06 11:10:34,827 127.0.0.1 - - [06/Jun/2025 11:10:34] "GET /socket.io/?EIO=4&transport=polling&t=PT5opLA&sid=eW0-4b82o0ktmaTtAAAE HTTP/1.1" 200 -
+2025-06-06 11:10:40,987 127.0.0.1 - - [06/Jun/2025 11:10:40] "GET /socket.io/?EIO=4&transport=websocket&sid=eW0-4b82o0ktmaTtAAAE HTTP/1.1" 200 -
+2025-06-06 11:10:40,993 127.0.0.1 - - [06/Jun/2025 11:10:40] "[33mGET /admin/create HTTP/1.1[0m" 404 -
+2025-06-06 11:12:23,455  * Detected change in '/home/miles/Code Projects/FileTransferSite/app.py', reloading
+2025-06-06 11:12:23,861  * Debugger is active!
+2025-06-06 11:12:23,861  * Debugger PIN: 346-412-446
+2025-06-06 11:12:26,364 127.0.0.1 - - [06/Jun/2025 11:12:26] "GET / HTTP/1.1" 200 -
+2025-06-06 11:12:26,383 127.0.0.1 - - [06/Jun/2025 11:12:26] "GET /socket.io/?EIO=4&transport=polling&t=PT5pEaB HTTP/1.1" 200 -
+2025-06-06 11:12:26,403 127.0.0.1 - - [06/Jun/2025 11:12:26] "POST /socket.io/?EIO=4&transport=polling&t=PT5pEaT&sid=Si_LPtck1HGuFM4AAAAA HTTP/1.1" 200 -
+2025-06-06 11:12:26,405 127.0.0.1 - - [06/Jun/2025 11:12:26] "GET /socket.io/?EIO=4&transport=polling&t=PT5pEaU&sid=Si_LPtck1HGuFM4AAAAA HTTP/1.1" 200 -
+2025-06-06 11:12:27,625 127.0.0.1 - - [06/Jun/2025 11:12:27] "GET /socket.io/?EIO=4&transport=websocket&sid=Si_LPtck1HGuFM4AAAAA HTTP/1.1" 200 -
+2025-06-06 11:12:27,631 127.0.0.1 - - [06/Jun/2025 11:12:27] "GET /login HTTP/1.1" 200 -
+2025-06-06 11:12:36,461 127.0.0.1 - - [06/Jun/2025 11:12:36] "[33mGET /admin/create/2 HTTP/1.1[0m" 404 -
+2025-06-06 11:13:26,826 127.0.0.1 - - [06/Jun/2025 11:13:26] "GET /socket.io/?EIO=4&transport=polling&t=PT5pTKb HTTP/1.1" 200 -
+2025-06-06 11:13:26,834 127.0.0.1 - - [06/Jun/2025 11:13:26] "POST /socket.io/?EIO=4&transport=polling&t=PT5pTKk&sid=3TkqDcBcCXlRmgOOAAAC HTTP/1.1" 200 -
+2025-06-06 11:13:26,835 127.0.0.1 - - [06/Jun/2025 11:13:26] "GET /socket.io/?EIO=4&transport=polling&t=PT5pTKk.0&sid=3TkqDcBcCXlRmgOOAAAC HTTP/1.1" 200 -
+2025-06-06 11:13:28,409 127.0.0.1 - - [06/Jun/2025 11:13:28] "GET /socket.io/?EIO=4&transport=websocket&sid=3TkqDcBcCXlRmgOOAAAC HTTP/1.1" 200 -
+2025-06-06 11:13:28,413 127.0.0.1 - - [06/Jun/2025 11:13:28] "GET / HTTP/1.1" 200 -
+2025-06-06 11:13:28,435 127.0.0.1 - - [06/Jun/2025 11:13:28] "GET /socket.io/?EIO=4&transport=polling&t=PT5pTjn HTTP/1.1" 200 -
+2025-06-06 11:13:28,448 127.0.0.1 - - [06/Jun/2025 11:13:28] "POST /socket.io/?EIO=4&transport=polling&t=PT5pTjy&sid=6F5WVQo67nrk8LAlAAAE HTTP/1.1" 200 -
+2025-06-06 11:13:28,448 127.0.0.1 - - [06/Jun/2025 11:13:28] "GET /socket.io/?EIO=4&transport=polling&t=PT5pTjz&sid=6F5WVQo67nrk8LAlAAAE HTTP/1.1" 200 -
+2025-06-06 11:14:06,312  * Detected change in '/home/miles/Code Projects/FileTransferSite/app.py', reloading
+2025-06-06 11:14:06,723  * Debugger is active!
+2025-06-06 11:14:06,723  * Debugger PIN: 346-412-446
+2025-06-06 11:14:07,918 127.0.0.1 - - [06/Jun/2025 11:14:07] "GET /socket.io/?EIO=4&transport=polling&t=PT5pdMh HTTP/1.1" 200 -
+2025-06-06 11:14:07,924 127.0.0.1 - - [06/Jun/2025 11:14:07] "POST /socket.io/?EIO=4&transport=polling&t=PT5pdMm&sid=yE3K7DzVdS_yC5A3AAAA HTTP/1.1" 200 -
+2025-06-06 11:14:07,925 127.0.0.1 - - [06/Jun/2025 11:14:07] "GET /socket.io/?EIO=4&transport=polling&t=PT5pdMn&sid=yE3K7DzVdS_yC5A3AAAA HTTP/1.1" 200 -
+2025-06-06 11:14:12,594 127.0.0.1 - - [06/Jun/2025 11:14:12] "[33mGET /admin/create/test HTTP/1.1[0m" 404 -
+2025-06-06 11:14:55,054 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-06 11:14:55,054 [33mPress CTRL+C to quit[0m
+2025-06-06 11:14:55,054  * Restarting with stat
+2025-06-06 11:14:55,378  * Debugger is active!
+2025-06-06 11:14:55,379  * Debugger PIN: 346-412-446
+2025-06-06 11:14:56,919 127.0.0.1 - - [06/Jun/2025 11:14:56] "GET /socket.io/?EIO=4&transport=polling&t=PT5ppKJ HTTP/1.1" 200 -
+2025-06-06 11:14:56,929 127.0.0.1 - - [06/Jun/2025 11:14:56] "POST /socket.io/?EIO=4&transport=polling&t=PT5ppKQ&sid=VtDvhheWfPQPMpBPAAAA HTTP/1.1" 200 -
+2025-06-06 11:14:56,932 127.0.0.1 - - [06/Jun/2025 11:14:56] "GET /socket.io/?EIO=4&transport=polling&t=PT5ppKR&sid=VtDvhheWfPQPMpBPAAAA HTTP/1.1" 200 -
+2025-06-06 11:15:02,244 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-06 11:15:02,244 [33mPress CTRL+C to quit[0m
+2025-06-06 11:15:02,244  * Restarting with stat
+2025-06-06 11:15:02,560  * Debugger is active!
+2025-06-06 11:15:02,560  * Debugger PIN: 346-412-446
+2025-06-06 11:15:02,918 127.0.0.1 - - [06/Jun/2025 11:15:02] "GET /socket.io/?EIO=4&transport=polling&t=PT5pqo3 HTTP/1.1" 200 -
+2025-06-06 11:15:02,923 127.0.0.1 - - [06/Jun/2025 11:15:02] "POST /socket.io/?EIO=4&transport=polling&t=PT5pqo8&sid=uj4mNi1AzZCwxZtCAAAA HTTP/1.1" 200 -
+2025-06-06 11:15:02,924 127.0.0.1 - - [06/Jun/2025 11:15:02] "GET /socket.io/?EIO=4&transport=polling&t=PT5pqo8.0&sid=uj4mNi1AzZCwxZtCAAAA HTTP/1.1" 200 -
+2025-06-06 11:15:42,280 127.0.0.1 - - [06/Jun/2025 11:15:42] "GET / HTTP/1.1" 200 -
+2025-06-06 11:15:42,531 127.0.0.1 - - [06/Jun/2025 11:15:42] "GET /socket.io/?EIO=4&transport=polling&t=PT5p-T1 HTTP/1.1" 200 -
+2025-06-06 11:15:42,537 127.0.0.1 - - [06/Jun/2025 11:15:42] "POST /socket.io/?EIO=4&transport=polling&t=PT5p-T7&sid=Wl-PHQCRFOucEE6LAAAC HTTP/1.1" 200 -
+2025-06-06 11:15:42,539 127.0.0.1 - - [06/Jun/2025 11:15:42] "GET /socket.io/?EIO=4&transport=polling&t=PT5p-T8&sid=Wl-PHQCRFOucEE6LAAAC HTTP/1.1" 200 -
+2025-06-06 11:15:42,542 127.0.0.1 - - [06/Jun/2025 11:15:42] "GET /socket.io/?EIO=4&transport=polling&t=PT5p-TD&sid=Wl-PHQCRFOucEE6LAAAC HTTP/1.1" 200 -
+2025-06-06 11:15:52,774 127.0.0.1 - - [06/Jun/2025 11:15:52] "GET /socket.io/?EIO=4&transport=websocket&sid=Wl-PHQCRFOucEE6LAAAC HTTP/1.1" 200 -
+2025-06-06 11:15:52,786 127.0.0.1 - - [06/Jun/2025 11:15:52] "[33mGET /admin/create/test HTTP/1.1[0m" 404 -
+2025-06-06 11:16:28,919 127.0.0.1 - - [06/Jun/2025 11:16:28] "GET /socket.io/?EIO=4&transport=polling&t=PT5q9nq HTTP/1.1" 200 -
+2025-06-06 11:16:28,923 127.0.0.1 - - [06/Jun/2025 11:16:28] "POST /socket.io/?EIO=4&transport=polling&t=PT5q9nv&sid=iVeMnIx9TNL6bmd1AAAE HTTP/1.1" 200 -
+2025-06-06 11:16:28,924 127.0.0.1 - - [06/Jun/2025 11:16:28] "GET /socket.io/?EIO=4&transport=polling&t=PT5q9nw&sid=iVeMnIx9TNL6bmd1AAAE HTTP/1.1" 200 -
+2025-06-06 11:16:28,926 127.0.0.1 - - [06/Jun/2025 11:16:28] "GET /socket.io/?EIO=4&transport=polling&t=PT5q9nz&sid=iVeMnIx9TNL6bmd1AAAE HTTP/1.1" 200 -
+2025-06-06 11:18:03,366  * Detected change in '/home/miles/Code Projects/FileTransferSite/app.py', reloading
+2025-06-06 11:18:03,428  * Restarting with stat
+2025-06-06 11:18:33,867 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-06 11:18:33,867 [33mPress CTRL+C to quit[0m
+2025-06-06 11:18:33,867  * Restarting with stat
+2025-06-06 11:18:34,195  * Debugger is active!
+2025-06-06 11:18:34,196  * Debugger PIN: 346-412-446
+2025-06-06 11:18:34,917 127.0.0.1 - - [06/Jun/2025 11:18:34] "GET /socket.io/?EIO=4&transport=polling&t=PT5qeYZ HTTP/1.1" 200 -
+2025-06-06 11:18:34,922 127.0.0.1 - - [06/Jun/2025 11:18:34] "POST /socket.io/?EIO=4&transport=polling&t=PT5qeYd&sid=UpDARLmgC1hMZBuCAAAA HTTP/1.1" 200 -
+2025-06-06 11:18:34,924 127.0.0.1 - - [06/Jun/2025 11:18:34] "GET /socket.io/?EIO=4&transport=polling&t=PT5qeYe&sid=UpDARLmgC1hMZBuCAAAA HTTP/1.1" 200 -
+2025-06-06 11:18:34,930 127.0.0.1 - - [06/Jun/2025 11:18:34] "GET /socket.io/?EIO=4&transport=polling&t=PT5qeYj&sid=UpDARLmgC1hMZBuCAAAA HTTP/1.1" 200 -
+2025-06-06 11:18:37,917 127.0.0.1 - - [06/Jun/2025 11:18:37] "GET /socket.io/?EIO=4&transport=polling&t=PT5qfHR HTTP/1.1" 200 -
+2025-06-06 11:18:37,921 127.0.0.1 - - [06/Jun/2025 11:18:37] "POST /socket.io/?EIO=4&transport=polling&t=PT5qfHV&sid=upe7zchvGMmimP6DAAAC HTTP/1.1" 200 -
+2025-06-06 11:18:37,922 127.0.0.1 - - [06/Jun/2025 11:18:37] "GET /socket.io/?EIO=4&transport=polling&t=PT5qfHV.0&sid=upe7zchvGMmimP6DAAAC HTTP/1.1" 200 -
+2025-06-06 11:18:40,821 127.0.0.1 - - [06/Jun/2025 11:18:40] "GET /socket.io/?EIO=4&transport=websocket&sid=upe7zchvGMmimP6DAAAC HTTP/1.1" 200 -
+2025-06-06 11:18:40,844 127.0.0.1 - - [06/Jun/2025 11:18:40] "GET / HTTP/1.1" 200 -
+2025-06-06 11:18:40,968 127.0.0.1 - - [06/Jun/2025 11:18:40] "GET /socket.io/?EIO=4&transport=polling&t=PT5qg17 HTTP/1.1" 200 -
+2025-06-06 11:18:40,977 127.0.0.1 - - [06/Jun/2025 11:18:40] "POST /socket.io/?EIO=4&transport=polling&t=PT5qg1D&sid=0vG6nw5IbReNpetTAAAE HTTP/1.1" 200 -
+2025-06-06 11:18:40,978 127.0.0.1 - - [06/Jun/2025 11:18:40] "GET /socket.io/?EIO=4&transport=polling&t=PT5qg1E&sid=0vG6nw5IbReNpetTAAAE HTTP/1.1" 200 -
+2025-06-06 11:18:46,476 127.0.0.1 - - [06/Jun/2025 11:18:46] "GET /socket.io/?EIO=4&transport=websocket&sid=0vG6nw5IbReNpetTAAAE HTTP/1.1" 200 -
+2025-06-06 11:18:46,485 Attempt to create admin.
+2025-06-06 11:18:46,486 127.0.0.1 - - [06/Jun/2025 11:18:46] "GET /admin/create/test HTTP/1.1" 200 -
+2025-06-06 11:18:50,875 Attempt to create admin.
+2025-06-06 11:18:50,875 127.0.0.1 - - [06/Jun/2025 11:18:50] "[32mGET /admin/create/1 HTTP/1.1[0m" 302 -
+2025-06-06 11:18:50,880 127.0.0.1 - - [06/Jun/2025 11:18:50] "GET / HTTP/1.1" 200 -
+2025-06-06 11:18:50,907 127.0.0.1 - - [06/Jun/2025 11:18:50] "GET /socket.io/?EIO=4&transport=polling&t=PT5qiSH HTTP/1.1" 200 -
+2025-06-06 11:18:50,914 127.0.0.1 - - [06/Jun/2025 11:18:50] "POST /socket.io/?EIO=4&transport=polling&t=PT5qiSV&sid=y74C7p9NNVb6UhJvAAAG HTTP/1.1" 200 -
+2025-06-06 11:18:50,916 127.0.0.1 - - [06/Jun/2025 11:18:50] "GET /socket.io/?EIO=4&transport=polling&t=PT5qiSV.0&sid=y74C7p9NNVb6UhJvAAAG HTTP/1.1" 200 -
+2025-06-06 11:19:46,533  * Detected change in '/home/miles/Code Projects/FileTransferSite/app.py', reloading
+2025-06-06 11:19:46,631  * Restarting with stat
+2025-06-06 11:19:46,957  * Debugger is active!
+2025-06-06 11:19:46,958  * Debugger PIN: 346-412-446
+2025-06-06 11:19:47,625 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-06 11:19:47,626 [33mPress CTRL+C to quit[0m
+2025-06-06 11:19:47,626  * Restarting with stat
+2025-06-06 11:19:47,937  * Debugger is active!
+2025-06-06 11:19:47,937  * Debugger PIN: 346-412-446
+2025-06-06 11:19:47,944 127.0.0.1 - - [06/Jun/2025 11:19:47] "GET /socket.io/?EIO=4&transport=polling&t=PT5qwNB HTTP/1.1" 200 -
+2025-06-06 11:19:47,944 127.0.0.1 - - [06/Jun/2025 11:19:47] "GET /socket.io/?EIO=4&transport=polling&t=PT5qwNC HTTP/1.1" 200 -
+2025-06-06 11:19:47,956 127.0.0.1 - - [06/Jun/2025 11:19:47] "POST /socket.io/?EIO=4&transport=polling&t=PT5qwNk&sid=gczGrzbcMhOrS2XpAAAB HTTP/1.1" 200 -
+2025-06-06 11:19:47,957 127.0.0.1 - - [06/Jun/2025 11:19:47] "POST /socket.io/?EIO=4&transport=polling&t=PT5qwNk&sid=EJlGIhxM-oRzLIesAAAA HTTP/1.1" 200 -
+2025-06-06 11:19:47,957 127.0.0.1 - - [06/Jun/2025 11:19:47] "GET /socket.io/?EIO=4&transport=polling&t=PT5qwNl&sid=EJlGIhxM-oRzLIesAAAA HTTP/1.1" 200 -
+2025-06-06 11:19:47,958 127.0.0.1 - - [06/Jun/2025 11:19:47] "GET /socket.io/?EIO=4&transport=polling&t=PT5qwNl&sid=gczGrzbcMhOrS2XpAAAB HTTP/1.1" 200 -
+2025-06-06 11:19:47,968 127.0.0.1 - - [06/Jun/2025 11:19:47] "GET /socket.io/?EIO=4&transport=polling&t=PT5qwNw&sid=gczGrzbcMhOrS2XpAAAB HTTP/1.1" 200 -
+2025-06-06 11:21:09,299  * Detected change in '/home/miles/Code Projects/FileTransferSite/app.py', reloading
+2025-06-06 11:21:09,370  * Restarting with stat
+2025-06-06 12:20:34,244  * Restarting with stat
+2025-06-06 12:31:17,213  * Restarting with stat
+2025-06-06 12:35:02,611  * Restarting with stat
+2025-06-06 12:35:49,153  * Restarting with stat

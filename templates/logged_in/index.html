@@ -64,12 +64,31 @@
 
                 <div class="collapse navbar-collapse" id="navMenu">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="/">Index</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/profile">{{ username }}</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/upload">Upload</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/logout">Logout</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="userDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="{{ cur_user.profile_picture }}" alt="Profile" class="rounded-circle me-2"
+                                    style="width: 32px; height: 32px; object-fit: cover;">
+                                <span>{{ username }}</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                                <li><a class="dropdown-item" href="/">Index</a></li>
+                                <li><a class="dropdown-item" href="/profile/{{ username }}">Profile</a></li>
+                                <li><a class="dropdown-item" href="/upload">Upload</a></li>
+                                <li><a class="dropdown-item" href="/settings">Settings</a></li>
+                                {% if is_admin %}
+                                <li><a class="dropdown-item text-danger" href="/admin">Admin</a></li>
+                                <li><a class="dropdown-item text-warning" href="/admin/queue/all">Queue</a></li>
+                                {% endif %}
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="/logout">Logout</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
+
             </div>
         </nav>
 
